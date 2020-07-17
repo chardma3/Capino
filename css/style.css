@@ -1,0 +1,22 @@
+body {
+    background-color: blue;
+}
+
+.callout-container {
+    height:100vh;
+     background: url("../images/boat-main.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about-container {
+
+}
+
+.packages-container {
+
+}
+
+
