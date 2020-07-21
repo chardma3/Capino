@@ -1,22 +1,216 @@
 body {
-    background-color: blue;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* Navbar */
+
+.navbar {
+    padding:5 0px;
+    margin: 5 0px;
+    margin-top: 10px;
+    border: 5px solid blue;
+
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+/* Containers */
+
 .callout-container {
-    height:100vh;
-     background: url("../images/boat-main.jpg") no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 500px;
+    background: url('../images/boat-main.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top: 10px;
+    border: 5px solid pink; 
 }
 
 .about-container {
+    border: 5px solid orange;
+    margin-top: 30px;
+}
+
+.package-container {
+    border: 5px solid green;
+    margin-top: 50px;
+    height:100%;
+}
+
+.package-type {
+    border: 1px solid red;
+    margin-bottom: 10px;
+    height: 50%;
+    
+    }
+
+.package-image {
+     border: 5px solid orange;
+     width:250px;
+    
+}
+
+h3 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    }
+
+.package-type p {
+    border: 1px solid purple;
+        margin-top: 15px;
+        margin-left:0;
+        margin-right: 0;
+
+    }
+
+.about-text {
+    border: 5px solid purple;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 50px;
+}
+
+button[type="contact"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
 
 }
 
-.packages-container {
+/* Form */
+
+.form-container {
+    border: 5px solid green;
+    margin-top: 15px;
+
+    padding: 20px 50px;
+}
+
+.form-header {
+    border: 5px solid purple;
+    font-family: ;
+    font-weight: ;
+    margin-top: 10px;
+    margin-bottom: ;
+    text-align: center;
+}
+
+.form-group {
+    border: 5px solid purple;
+    padding-top:10px;
+    margin: 0 auto;
+    max-width: 70%;
 
 }
 
+button[type="send"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
 
+}
+
+.form-control {
+    
+   
+}
+
+.label {
+  
+    
+}
+
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color:#21252933;
+    padding: 50px 200px;
+    margin: 80px 250px;
+    
+   
+}
+
+.jumbotron-header {
+    color:white;
+    font-weight:bold;
+    
+    
+  
+}
+
+/* Footer */
+
+.footer-container {
+    border: 5px solid purple;
+    margin-top: 20px;
+}
+
+
+.copyright-container {
+    border: 5px solid purple;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+
+.social-container {
+     border: 5px solid purple;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: right;
+    margin-right: 2px;
+    
+
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 9px;
+    text-align: center;
+    color: #fafafa;
+    background: #000000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #919191;
+}
+
+/* Media queries */
+
+@media(min-width: 992px) {
+    .form-group {
+        
+        padding-top:30px;
+        margin: 0 auto;
+        max-width: 70%;
+        min-height:240px;
+        margin: 0 auto;
+        max-width: 50%;
+
+}
+}
