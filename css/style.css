@@ -8,7 +8,7 @@ body {
     padding:5 0px;
     margin: 5 0px;
     margin-top: 10px;
-    border: 5px solid blue;
+    
 
 }
 
@@ -24,29 +24,49 @@ body {
     background: url('../images/boat-main.jpg') no-repeat center center;
     background-size: cover;
     margin-top: 10px;
-    border: 5px solid pink; 
+   
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .about-container {
-    border: 5px solid orange;
+    
     margin-top: 30px;
 }
 
+.about-image-container {
+    margin: 0;
+    padding; 0;
+}
+.responsive {
+    max-width:100;
+    width: 400px;
+    height: auto;
+}
+
+.about-text {
+  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 50px;
+}
+
 .package-container {
-    border: 5px solid green;
+    
     margin-top: 50px;
     height:100%;
 }
 
 .package-type {
-    border: 1px solid red;
+   
     margin-bottom: 10px;
     height: 50%;
     
     }
 
 .package-image {
-     border: 5px solid orange;
+    
      width:250px;
     
 }
@@ -62,18 +82,19 @@ h3 {
     }
 
 .package-type p {
-    border: 1px solid purple;
+    
         margin-top: 15px;
         margin-left:0;
         margin-right: 0;
 
     }
 
-.about-text {
-    border: 5px solid purple;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 20px 50px;
+/* Buttons */
+
+.button-cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
 }
 
 button[type="contact"] {
@@ -87,14 +108,14 @@ button[type="contact"] {
 /* Form */
 
 .form-container {
-    border: 5px solid green;
+    
     margin-top: 15px;
 
     padding: 20px 50px;
 }
 
 .form-header {
-    border: 5px solid purple;
+    
     font-family: ;
     font-weight: ;
     margin-top: 10px;
@@ -103,7 +124,7 @@ button[type="contact"] {
 }
 
 .form-group {
-    border: 5px solid purple;
+  
     padding-top:10px;
     margin: 0 auto;
     max-width: 70%;
@@ -118,25 +139,12 @@ button[type="send"] {
 
 }
 
-.form-control {
-    
-   
-}
-
-.label {
-  
-    
-}
-
-
-
 /* Jumbotron */
 
 .jumbotron {
     background-color:#21252933;
     padding: 50px 200px;
-    margin: 80px 250px;
-    
+    margin: 80px 250px; 
    
 }
 
@@ -151,20 +159,20 @@ button[type="send"] {
 /* Footer */
 
 .footer-container {
-    border: 5px solid purple;
+   
     margin-top: 20px;
 }
 
 
 .copyright-container {
-    border: 5px solid purple;
+    
     margin-top: 20px;
     margin-bottom: 20px
 }
 
 
 .social-container {
-     border: 5px solid purple;
+   
     margin-top: 20px;
     margin-bottom: 20px;
 

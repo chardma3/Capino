@@ -13,61 +13,64 @@
 </head>
 <body>
 
-<div class="container navbar-container mx-10 px-0">
+ <!-- navbar -->
+
+<div class="container navbar-container mx-10 px-0" id="#home">
     <navbar class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">Capino</a>
+        <a href="#home" class="navbar-brand">Capino</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/about">About Us</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/packages">Packages</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact</a></li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#packages">Packages</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
     </navbar>
 </div>
+    <!-- /.navbar-->
 
-    
+    <!-- callout -->
     <div class="container callout-container">
-        <!-- callout -->
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
                     <h1 class="jumbotron-header">Plan your next event with us!</h1>
-                    <button type="contact" class="btn btn-dark">Get in Touch!</button>
+                    <button type="contact" class="btn btn-dark button-cta">Get in Touch!</button>
                     
                 </section>
             </div>
-        </div>
-        <!-- /.callout-->
+        </div> 
     </div>
-   
+    <!-- /.callout-->
     
 
         <!-- about -->
-        <div class="container about-container mx-10 px-0">
+        <a ></a>
+        <div class="container about-container mx-10 px-0" id="#about">
          <section class="about">
             <div class="row">       
-                <div class="col-md-auto">
+                <div class="col">
                     <div class="about-image">
-                        <img src="/images/girl-image.png" alt="group" style="width: 300px; height: 300px;">
+                        <img src="/images/about.jpg" alt="owner portrait" class="responsive">
                     </div>
                 </div>
-                <div class="col-md-8 about-text">
+                <div class="col-12 col-sm-6 about-text">
                     <h2>About Us</h2>
                     <p>Grog swab chantey draft gangway lass log boom loot Privateer. Sloop lugsail scuttle jolly boat gally shrouds jack keelhaul fire in the hole dead men tell no tales. Clap of thunder smartly starboard gally Jack Ketch tackle ho bounty lass wench.</p>
                 </div>
             </div> 
-        <!-- /.about-->
+        
          </section>
         </div>
         </div>
+        <!-- /.about-->
 
         <!-- packages -->
-        <section class=" container package-container mx-10 px-0">
+        <section class="container package-container mx-10 px-0" id="#packages">
             <div class="row">   
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="package-type">
@@ -101,7 +104,7 @@
         <!-- /.packages -->
 
         <!-- contact form -->
-            <section class="container form-container mx-10 px-0" a href=“#form”></a>
+            <section class="container form-container mx-10 px-0" id=“#contact”></a>
                 <div class="row">
                     <div class="col form-header">
                         <h2> Get in Touch!</h2>
@@ -111,13 +114,13 @@
                 <div class="row">
                 <div class="col">
                         <form>
-                            <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Name" required />
-                            <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp" placeholder="Email" required />
+                            <input type="text" class="form-control" id="exampleInputName" placeholder="Name" required />
+                            <input type="email" class="form-control" id="emailaddress" placeholder="Email" required />
                             <input type="number" class="form-control" id="phonenumber" placeholder="Phone Number" />
-                            <textarea rows="5" class="form-control" name="message" id="message"  placeholder="Message" required></textarea>
+                            <textarea rows="5" class="form-control" id="message" placeholder="Message" name="message" required></textarea>
                             <div class="form-row text-center">
                                 <div class="col">
-                                    <button type="send" class="btn btn-secondary">Send!</button>
+                                    <button type="send" class="btn btn-secondary button-cta">Send!</button>
                                 </div>
                             </div>
                         </form>
