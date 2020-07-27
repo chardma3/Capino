@@ -5,11 +5,12 @@ body {
 /* Navbar */
 
 .navbar {
-    padding:5 0px;
-    margin: 5 0px;
-    margin-top: 10px;
-    
+  background-color:#d5e1ec94;
+    margin-top: 20px;
+}
 
+.navbar-default {
+    background-color:#d5e1ec94;
 }
 
 .navbar-brand {
@@ -17,72 +18,75 @@ body {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
+
+
+
 /* Containers */
 
 .callout-container {
     height: 500px;
     background: url('../images/boat-main.jpg') no-repeat center center;
     background-size: cover;
-    margin-top: 10px;
+    margin-top: 20px;
     display:flex;
     align-items:center;
     justify-content:center;
     padding:0;
-   
 }
 
 .about-container {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .about-heading {
-    background-color:#21252933;
+    background-color:#d5e1ec94;
+    padding-top:10px;
     text-align:center; 
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .responsive {
     max-width:100%;
-
 }
 
 .about-text {
   padding-right: 20px;
   padding-left: 0px;
+  padding-top: 15px;
   margin-left: 20px;
   margin-right:20px;
+  
   height:100%;
 }
 
 .package-heading {
-    background-color:#21252933;
+    background-color:#d5e1ec94;
     text-align:center; 
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .package-container {
-    margin-top: 50px;
-    height:100%;
+   
 }
 
 .package-type {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     height: 50%;
-    
-    }
+}
 
 .package-image {
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
     overflow: hidden;
-    
-    
+    background-color: #ffffff;
+    opacity: 0.6;
 }
 
-h3 {
+.package-type h3 {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -90,15 +94,15 @@ h3 {
     text-align: center;
     color:rgb(0, 0, 0);
     text-transform: uppercase;
-    }
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
 
 .package-type p {
-    
     margin-top: 15px;
-    margin-left:0;
-    margin-right: 0;
-
-    }
+    margin-left: 10px;
+    margin-right:10px;
+    padding-left: 0px;
+}
 
 /* Buttons */
 
@@ -106,55 +110,38 @@ h3 {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
+    color:white;
+    background-color:black;
 }
 
-.button[type="contact"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color:rgb(255, 255, 255);
-    background-color:rgb(0, 0, 0);
-
+.button-cta:hover {
+    background: #919191;
 }
 
 /* Form */
 
 .form-container {
     margin-top: 15px;
-    padding: 20px 50px;
-    border: 1px solid green;
 }
 
 .form-header {
-    background-color:#21252933;
+    background-color:#d5e1ec94;
     margin-top: 10px;
- margin-left:0;
- margin-right:0;
- 
+    padding-top:10px;
     text-align: center;
-    border: 1px solid green;
-    width: 100%;
-
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .form-group {
     padding-top:10px;
     margin: 0 auto;
     max-width: 70%;
-    border: 1px solid green;
-
 }
 
 .form-button {
     margin-top: 10px;
 }
 
-.button[type="send"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color:rgb(255, 255, 255);
-    background-color:rgb(0, 0, 0);
-
-}
 
 /* Jumbotron */
 
@@ -171,32 +158,17 @@ h3 {
 
 .footer-container {
     margin-top: 20px;
+    background-color:#d5e1ec94;
+    margin-bottom: 20px;
 }
-
 
 .copyright-container {
-    padding-right:15px;
-    padding-top: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left:10px;
+    text-align:center; 
 }
-
-
-.social-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: right;
-    margin-right: 2px;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
 
 
 .social-links li a i {
+    margin-top: 20px;
     width: 40px;
     height: 40px;
     padding: 16px 0;
@@ -204,7 +176,7 @@ h3 {
     font-size: 20px;
     line-height: 9px;
     text-align: center;
-    color: #fafafa;
+    color:white;
     background: #000000;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -216,16 +188,14 @@ h3 {
     background: #919191;
 }
 
+
 /* Media queries */
 
 @media(min-width: 992px) {
     .form-group {
-        
         padding-top:30px;
         margin: 0 auto;
         max-width: 70%;
         min-height:240px;
-       
-
 }
 }

@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
   </head>
   <body>
-    <nav class="container navbar-container mx-10 px-0 my-auto" id="home">
-      <navbar class="navbar navbar-light bg-light navbar-expand-sm">
-        <a class="navbar-brand">Capino</a>
+    <nav class="container navbar-container px-0" id="home">
+      <navbar class="navbar navbar-light navbar-expand-sm">
+        <a class="navbar-brand" id="navbar" href="#navbar">Capino</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav nav-fill w-100">
             <li class="active nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item mr-2"><a class="nav-link" href="#about-us">About</a></li>
             <li class="nav-item mr-2"><a class="nav-link" href="#packages">Packages</a></li>
             <li class="nav-item mr-2"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="https://www.facebook.com">Social Media</a></li>
           </ul>
         </div>
       </navbar>
@@ -33,7 +34,7 @@
         <div class="col-12">
           <section class="callout jumbotron text-center">
             <h1 class="jumbotron-header">Plan your next event with us!</h1>
-            <button id="contact-form" type="submit" class="btn btn-dark button-cta">Get in Touch!</button>
+            <a class="btn btn-dark button-cta" href="#contact-button" role="button">Get in Touch!</a>
           </section>
         </div>
       </div>
@@ -55,10 +56,11 @@
         <div class="col-12 col-sm-8">
             <div class="about-text">
             <p>
-              Grog swab chantey draft gangway lass log boom loot Privateer. Sloop lugsail scuttle jolly boat gally shrouds jack keelhaul fire in the hole dead men tell no tales. Clap of thunder smartly starboard gally Jack Ketch tackle ho
-              bounty lass wench.Grog swab chantey draft gangway lass log boom loot Privateer. Sloop lugsail scuttle jolly boat gally shrouds jack keelhaul fire in the hole dead men tell no tales. Clap of thunder smartly starboard gally Jack Ketch tackle ho
-              bounty lass wench.Grog swab chantey draft gangway lass log boom loot Privateer. Sloop lugsail scuttle jolly boat gally shrouds jack keelhaul fire in the hole dead men tell no tales. Clap of thunder smartly starboard gally Jack Ketch tackle ho
-              bounty lass wench.
+              Delores O'leary is a one of a kind. She has sailed around the world, lived in 17 countries and now dedicates her life 
+              to creating once in a lifetime and the most unforgettable experiences money can buy.
+              Whatever your need Dolores has the means. From flare throwers to world class dj's, master whiskey blenders to award winning chefs, nothing 
+              is too much to ask for at this catering service. Aboard Capino dreams come true and Delores is there to make sure that happens.
+              Welcome aboard Capino and be prepared for the time of your life.
             </p>
             </div>
         </div>
@@ -81,8 +83,8 @@
             <img src="/images/champagne.jpg" alt="champagne glasses" class="package-image"/>
             <h3>Champagne Testing</h3>
             <p>
-              Grog swab chantey draft gangway lass log boom loot Privateer. Sloop lugsail scuttle jolly boat gally shrouds jack keelhaul fire in the hole dead men tell no tales. Clap of thunder smartly starboard gally Jack Ketch tackle ho
-              bounty lass wench.
+              To not drink champagne is to forego life's joys. And what is better than to know more about that which provides so much joy.
+              Whether interested in learning more about champagne or there to enjoy the festivities this is an experience to be savoured. our selection of champagnes guided by our master sommelier.
             </p>
           </div>
         </div>
@@ -91,8 +93,8 @@
             <img src="/images/degus.jpg" alt="degustation food" class="package-image" />
             <h3>Degustation Menu</h3>
             <p>
-              Grog swab chantey draft gangway lass log boom loot Privateer. Sloop lugsail scuttle jolly boat gally shrouds jack keelhaul fire in the hole dead men tell no tales. Clap of thunder smartly starboard gally Jack Ketch tackle ho
-              bounty lass wench.
+              Why eat one meal when you can eat many? And this is exactly the idea behind our degustation menu. We invite award winning chefs to prepare a menu consisting of a number of small dishes to delight
+              the senses. We also pair the food with wine and champagne on request.
             </p>
           </div>
         </div>
@@ -101,8 +103,8 @@
             <img src="/images/whiskey.jpg" alt="whiskey tasting" class="package-image"/>
             <h3>Whiskey Tasting</h3>
             <p>
-              Grog swab chantey draft gangway lass log boom loot Privateer. Sloop lugsail scuttle jolly boat gally shrouds jack keelhaul fire in the hole dead men tell no tales. Clap of thunder smartly starboard gally Jack Ketch tackle ho
-              bounty lass wench.
+              Our Master whiskey distiller is on hand to take you through some of the most exciting whiskies in the world. Here you learn how to distinguish the different characteristics 
+              and nuances of the whiskeys selected for the evening. Upon request we also do guest selected whiskeys.
             </p>
           </div>
         </div>
@@ -111,8 +113,8 @@
             <img src="/images/dj.jpg" alt="vinyl turntable" class="package-image" />
             <h3>DJ Dance Party</h3>
             <p>
-              Grog swab chantey draft gangway lass log boom loot Privateer. Sloop lugsail scuttle jolly boat gally shrouds jack keelhaul fire in the hole dead men tell no tales. Clap of thunder smartly starboard gally Jack Ketch tackle ho
-              bounty lass wench.
+              What better way to celebrate than to dance the night away with an award winnig dj on your own boat. We will rig up the bar with exotic cocktails and 
+              flambouyant bartenders to keep you moving. Hors d'oeuvre are served throughout the night and of course we can cater to anything else your heart desires.
             </p>
           </div>
         </div>
@@ -122,10 +124,11 @@
     <!-- /.packages -->
 
     <!-- contact form -->
-    <section class="container form-container" id="contact">
+    <section id="contact" class="container form-container">
       <div class="row">
-        <div class="col form-header">
-          <h2>Get in Touch!</h2>
+        <div class="col-12 form-header" id="contact-button">
+            <h2>Contact</h2>
+            <h4>Get in Touch!</h4>
         </div>
       </div>
       <div class="form-group">
@@ -151,40 +154,45 @@
 
     <footer>
       <section class="container footer-container">
+
+            <div class="row">
+                <div class="social-container mx-auto">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.tripadvisor.com/">
+                                <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                                <span class="sr-only">Trip Advisor</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://whiteguide.com/">
+                                <i class="fa fa-certificate" aria-hidden="true"></i>
+                                <span class="sr-only">White Guide</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         <div class="row">
           <div class="col">
-            <div class="copyright-container">
-            <p>Copyright Crusco 2020</p>
+            <div class="copyright-container mx-auto">
+            <p>Copyright Capino 2020</p>
             </div>
           </div>
-          <div class="col social-container">
-            <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fa fa-tripadvisor" aria-hidden="true"></i>
-                  <span class="sr-only">Trip Advisor</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a target="_blank" href="#">
-                  <i class="fa fa-certificate" aria-hidden="true"></i>
-                  <span class="sr-only">certificate</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+          
         </div>
       </section>
     </footer>
