@@ -4,7 +4,7 @@ Capino is the website for a catering service located on an upscale yet homley ya
  
 ## UX
  
-This website is for those people wanting to have a party and/or a unique experience. It's a catering service so it caters to it's clients wishes as much is possible. This website allows them to find inspiration for their party and to fulfil their desire for an experience. It provides claer navigation to the sections on the website, explains who runs the service and has a form so potential clients can easily send a request to the boat owner. Social media links are also available so that clients can connect with the service on another level.
+This website is for those people wanting to have a party and/or a unique experience. It's a catering service so it caters to it's clients wishes as much is possible. The website provides clear navigation to the sections on the website, offers inspiration for their event in the packages section, explains who runs the service and has a form so potential clients can easily send a request to the service. Social media links are also available so that clients can connect with the service on another level.
 
 **User Stories:**
 1. As a wine connoisseur, 
@@ -22,22 +22,21 @@ so that my kids and their friends will have a memorable birthday party.
 The pdf file of the wireframes for the website is available in the project folder on Github.
 
 ## Features
-Navbar  
-*The navbar provides the navigation for the website which links to the 4 different sections on the webpage. This allows users to see what the catering service offers and how.
+**Navbar**  *The navbar provides the navigation for the website which links to the 4 different sections on the webpage. This allows users to see what the catering service offers and how.
 
-Call out with a call-to-action button   
+**Call out with a call-to-action button**  
 *The call out section is a marketing tool used to draw the users attention to the service Capino provides. It also provides a button which takes the user to the contact form so they can quickly and easily get in touch with the service.
 
-About section   
+**About section**  
 *This section provides the user with a photo and some text explaining who runs the catering service, their background, competencies, and qualifications.
 
-Packages  
+**Packages**  
 *The packages section lists some of the various packages available to potential guests.
 
-Contact form  
+**Contact form**  
 *The contact form allows potential guests to easily get in touch with the service. 
 
-Social media section   
+**Social media section**  
 *This section provides links to Capino's social media webpages.
 
 ## Technologies Used
@@ -86,22 +85,22 @@ In order to run the code for the project locally use the link provided to naviga
 ## Credits
 
 ### Media
-Hero image
+Hero image  
 https://www.princessmotoryachtsales.com/wp-content/uploads/2014/12/30m-exterior-blue-hull-22v2-820x540.jpg
 
-About me portrait
+About me portrait  
 https://expertphotography.com/wp-content/uploads/2019/04/headshot-photography-backgrounds-nature.jpg
 
-Champagne glasses 
+Champagne glasses   
 https://www.michaelswinecellar.com/calendar/events/holiday-champagne-tasting
 
-Degustation menu
+Degustation menu  
 http://www.golden-circle.com/thetable/restaurants-bars/kowloon-shangri-la-hong-kong/angelini/offers/201909-ang-degustation-menu/
 
-Whiskey glasses
+Whiskey glasses  
 https://medium.com/@londonspiritscompetition/whiskey-tasting-for-beginners-b0b1c73bc545
 
-Dj turntable
+Dj turntable  
 https://www.youtube.com/watch?v=a7g75nQiLkw
 
 
