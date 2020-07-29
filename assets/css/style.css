@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700|Montserrat+Subrayada:700";
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -5,16 +7,24 @@ body {
 /* Navbar */
 
 .navbar {
-  background-color:#d5e1ec94;
-    margin-top: 20px;
+  background-color:#d5e1ec;
+  padding: 0; 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:100;
 }
 
 .navbar-default {
-    background-color:#d5e1ec94;
+    background-color:#d5e1ec;
 }
 
 .navbar-brand {
     font-size: 50px;
+    padding:0;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -36,10 +46,8 @@ body {
 }
 
 .about-heading {
-    padding-top:10px;
     text-align:center; 
-    margin-top: 10px;
-    margin-bottom: 20px;
+    padding-top: 4.5rem;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -54,10 +62,8 @@ body {
 }
 
 .package-heading {
-    padding-top:10px;
+    padding-top:4.5rem;
     text-align:center; 
-    margin-top: 20px;
-    margin-bottom: 20px;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -112,7 +118,7 @@ body {
 }
 
 .form-header {
-    margin-top: 10px;
+    margin-top: 5rem;
     padding-top:10px;
     text-align: center;
     font-family: 'Montserrat Subrayada', sans-serif;
