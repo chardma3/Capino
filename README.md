@@ -22,7 +22,8 @@ so that my kids and their friends will have a memorable birthday party.
 The pdf file of the wireframes for the website is available in the project folder on Github.
 
 ## Features
-**Navbar**  *The navbar provides the navigation for the website which links to the 4 different sections on the webpage. This allows users to see what the catering service offers and how.
+**Navbar**  
+*The navbar provides the navigation for the website which links to the 4 different sections on the webpage. This allows users to see what the catering service offers and how.
 
 **Call out with a call-to-action button**  
 *The call out section is a marketing tool used to draw the users attention to the service Capino provides. It also provides a button which takes the user to the contact form so they can quickly and easily get in touch with the service.
