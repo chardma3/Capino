@@ -18,9 +18,6 @@ body {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
-
-
-
 /* Containers */
 
 .callout-container {
@@ -52,24 +49,18 @@ body {
 }
 
 .about-text {
-  padding-right: 20px;
-  padding-left: 0px;
-  padding-top: 15px;
-  margin-left: 20px;
-  margin-right:20px;
-  
+  padding: 15px 20px 0 0;
+  margin: 0 20px;
   height:100%;
 }
 
 .package-heading {
     background-color:#d5e1ec94;
+    padding-top:10px;
     text-align:center; 
+    margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Montserrat Subrayada', sans-serif;
-}
-
-.package-container {
-   
 }
 
 .package-type {
@@ -98,9 +89,7 @@ body {
 }
 
 .package-type p {
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right:10px;
+    margin:15px 10px 0 10px;
     padding-left: 0px;
 }
 
