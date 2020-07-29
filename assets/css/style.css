@@ -36,7 +36,6 @@ body {
 }
 
 .about-heading {
-    background-color:#d5e1ec94;
     padding-top:10px;
     text-align:center; 
     margin-top: 10px;
@@ -55,7 +54,6 @@ body {
 }
 
 .package-heading {
-    background-color:#d5e1ec94;
     padding-top:10px;
     text-align:center; 
     margin-top: 20px;
@@ -114,7 +112,6 @@ body {
 }
 
 .form-header {
-    background-color:#d5e1ec94;
     margin-top: 10px;
     padding-top:10px;
     text-align: center;
