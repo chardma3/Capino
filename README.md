@@ -1,39 +1,110 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Capino M/S
 
-Welcome chardma3,
+Capino is the website for a catering service located on an upscale yet homley yacht called Capino. The service provides different packages catering to users needs by delivering a unique, memorable and tailor made experience.
+ 
+## UX
+ 
+This website is for those people wanting to have a party or a unique experience. It's a catering service so it caters to it's clients wishes as much a is possible. This website allows them to find inspiration for their party or to fulfil their desire for an experience. It provides claer navigation to the sections on the website, explains who runs the service and has a form so potential clients can easily send a request to the boat owner. Social media links are also available so that clients can connect with the service on another level.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+User Stories
+As a wine connoisseur, 
+I want a wine tasting with friends
+so that we can learn about wines and have a fun night.
 
-## Gitpod Reminders
+As a busy office manager responsible for our office parties, 
+I want someone to bring life to a staff party
+so that everybody has an enjoyable night.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+As a parent of teenagers,
+I want a safe and reliable catering service
+so that my kids and their friends will have a memorable birthday party.
 
-`python3 -m http.server`
+The pdf file of the wireframes for the website is available in the project folder on Github.
 
-A blue button should appear to click: *Make Public*,
+## Features
+Navbar
+The navbar provides the navigation for the website which links to the 4 different sections on the webpage. This allows users to see what the catering service offers and how.
 
-Another blue button should appear to click: *Open Browser*.
+Call out with a call-to-action button 
+The call out section is a marketing tool used to draw the users attention to the service Capino provides.It also provides a button which takes the user to the contact form so they can quickly and easily get in touch with the service.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+About section 
+This section provides the user with a photo and some text explaining who runs the catering service, their background, competencies, and qualifications.
 
-A blue button should appear to click: *Make Public*,
+Packages 
+The packages section lists some of the various packages available to potential guests.
 
-Another blue button should appear to click: *Open Browser*.
+Contact form
+The contact form allows potential guests to easily get in touch with the service. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Social media section 
+This section provides links to Capino's social media webpages.
 
-## Updates Since The Instructional Video
+## Technologies Used
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+Languages and frameworks used in this project were
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Html
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Css
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Bootstrap 
+https://getbootstrap.com/
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+JavaScript
+-to run bootstrap
 
---------
+## Testing
 
-Happy coding!
+The site was tested manually and fulfils its goals by providing an easy and straightforward way for users to achieve their goals.
+
+1 Navbar
+i all links in the navbar take the user to that section on the webpage
+
+2 Call-to-action button
+i takes the user to the contact form to make it easy for the user to get in touch
+
+3 Contact Form
+i on trying to submit the form with required fields left blank it shows an error message
+ii on entering invalid information e.g. name in the email address field, it displays an error message as it expects an email address only. This is the same for the name field which requires text and not an email address.
+iii when all requirements are met, the form is submitted
+
+4 Social Media section
+i all links open a separate page and take the user to the social media websites
+
+The website is responsive and diplays four packages on desktop screens, two packages on tablet sized devices and everything stacked in mobile view.
+
+## Deployment
+
+I deployed the project by selecting the master branch in the source drop down menu in the settings of my project repository on Github.
+
+There are no differences between the deployed version and the developement version.
+
+In order to run the code for the project locally use the link provided to navigate to the project repository and the clone the project. 
+
+
+## Credits
+
+### Media
+Hero image
+https://www.princessmotoryachtsales.com/wp-content/uploads/2014/12/30m-exterior-blue-hull-22v2-820x540.jpg
+
+About me portrait
+https://expertphotography.com/wp-content/uploads/2019/04/headshot-photography-backgrounds-nature.jpg
+
+Champagne glasses 
+https://www.michaelswinecellar.com/calendar/events/holiday-champagne-tasting
+
+Degustation menu
+http://www.golden-circle.com/thetable/restaurants-bars/kowloon-shangri-la-hong-kong/angelini/offers/201909-ang-degustation-menu/
+
+Whiskey glasses
+https://medium.com/@londonspiritscompetition/whiskey-tasting-for-beginners-b0b1c73bc545
+
+Dj turntable
+https://www.youtube.com/watch?v=a7g75nQiLkw
+
+
+### Acknowledgements
+
+- I received inspiration for this project from the whiskey drop project and resume project in the lesson videos.
