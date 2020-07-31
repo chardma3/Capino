@@ -18,13 +18,9 @@ body {
   z-index:100;
 }
 
-.navbar-default {
-    background-color:#d5e1ec;
-}
-
 .navbar-brand {
     font-size: 50px;
-    padding:0;
+    padding:0 0 0 5px;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -63,6 +59,7 @@ body {
 
 .package-heading {
     padding-top:4.5rem;
+    padding-bottom:15px;
     text-align:center; 
     font-family: 'Montserrat Subrayada', sans-serif;
 }
@@ -118,20 +115,20 @@ body {
 }
 
 .form-header {
-    margin-top: 5rem;
-    padding-top:10px;
+    margin-top: 3.5rem;
+    padding-top:16px;
     text-align: center;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .form-group {
-    padding-top:10px;
     margin: 0 auto;
     max-width: 70%;
 }
 
 .form-button {
-    margin-top: 10px;
+    margin-top: 25px;
+    padding-bottom:15px;
 }
 
 
@@ -149,7 +146,7 @@ body {
 /* Footer */
 
 .footer-container {
-    margin-top: 20px;
+    margin-top: 30px;
     background-color:#d5e1ec94;
     margin-bottom: 20px;
 }
