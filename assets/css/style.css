@@ -30,7 +30,7 @@ body {
 
 .callout-container {
     height: 100vh;
-    background: url('../images/boat-main.jpg') no-repeat center center fixed;
+    background: url('../images/boat-hero.jpg') no-repeat center center fixed;
     background-size: cover;
     display:flex;
     align-items:center;
@@ -94,6 +94,20 @@ body {
 .package-type p {
     margin:15px 10px 0 10px;
     padding-left: 0px;
+}
+
+.bg-deck {
+    height: 100vh;
+    background: url('../images/deck.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display:flex;
+}
+
+.bg-sail {
+    height: 100vh;
+    background: url('../images/sail.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display:flex;
 }
 
 /* Buttons */
