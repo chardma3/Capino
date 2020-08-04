@@ -1,4 +1,5 @@
-@import "https://fonts.googleapis.com/css?family=Raleway:wght@100;800|Montserrat+Subrayada:700 ";
+@import "https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Raleway:wght@400;900&display=swap";
+
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -29,14 +30,15 @@ body {
 /* Containers */
 
 .callout-container {
-    height: 100vh;
+    height: 90vh;
     background: url('../images/boat-hero.jpg') no-repeat center center fixed;
     background-size: cover;
     display:flex;
     align-items:center;
     justify-content:center;
     padding:0;
-    font-family: 'Montserrat Subrayada', sans-serif;
+ 
+    
 }
 
 .about-container {
@@ -97,14 +99,14 @@ body {
 }
 
 .bg-deck {
-    height: 100vh;
+    height: 90vh;
     background: url('../images/deck.jpg') no-repeat center center fixed;
     background-size: cover;
     display:flex;
 }
 
 .bg-sail {
-    height: 100vh;
+    height: 90vh;
     background: url('../images/sail.jpg') no-repeat center center fixed;
     background-size: cover;
     display:flex;
@@ -163,7 +165,11 @@ body {
 
 .jumbotron-header {
     color:rgb(255, 255, 255);
-    font-weight:bolder; 
+    font-weight: 900;
+    
+    font-size: 5rem;
+    font-style: italic;
+    
 }
 
 /* Footer */
