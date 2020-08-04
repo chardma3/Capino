@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
   </head>
-  <body>
-    <nav class="container navbar-container px-0" id="home">
-      <navbar class="navbar navbar-light navbar-expand-sm sticky container">
+  <body id="home">
+    
+      <nav class="navbar navbar-light navbar-expand-sm sticky-top">
         <a class="navbar-brand" id="navbar" href="#navbar">Capino</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav nav-fill w-100">
             <li class="active nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item mr-2"><a class="nav-link" href="#about-us">About</a></li>
@@ -26,7 +26,7 @@
       </navbar>
     </nav>
     <!-- callout -->
-    <div class="container callout-container">
+    <div class="container-fluid callout-container">
       <div class="row">
         <div class="col-12">
           <section class="callout jumbotron text-center">
@@ -38,7 +38,7 @@
     </div>
     <!-- /.callout-->
     <!-- about -->
-    <div id="about-us" class="container about-container" >
+    <div id="about-us" class="container-fluid about-container" >
         <section class="about">
             <div class="row">
                 <div class="col about-heading">
@@ -65,7 +65,7 @@
     </div>
     <!-- /. about -->
     <!-- packages -->
-    <section id="packages" class="container package-container" >
+    <section id="packages" class="container-fluid package-container" >
         <div class="row">
             <div class="col package-heading">
                 <h2>Packages</h2>
@@ -115,11 +115,11 @@
     </section>
     <!-- /.packages -->
     <!-- contact form -->
-    <section id="contact" class="container form-container">
+    <section id="contact" class="container-fluid form-container">
       <div class="row">
         <div class="col-12 form-header" id="contact-button">
             <h2>Contact</h2>
-            <h4>Get in Touch!</h4>
+            <h4 class="subtext">Get in Touch!</h4>
         </div>
       </div>
       <div class="form-group">
@@ -142,7 +142,7 @@
     </section>
     <!-- /.contact form-->
     <footer>
-        <section class="container footer-container">
+        <section class="container-fluid footer-container">
             <div class="row">
                 <div class="social-container mx-auto">
                     <ul class="list-inline social-links">

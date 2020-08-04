@@ -24,13 +24,15 @@ body {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
+
+
 /* Containers */
 
 .callout-container {
     height: 500px;
     background: url('../images/boat-main.jpg') no-repeat center center;
     background-size: cover;
-    margin-top: 20px;
+   
     display:flex;
     align-items:center;
     justify-content:center;
@@ -121,6 +123,12 @@ body {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
+.subtext {
+    font-weight:bold;
+    font-family: 'Raleway', sans-serif;
+
+}
+
 .form-group {
     margin: 0 auto;
     max-width: 70%;
@@ -140,15 +148,15 @@ body {
 
 .jumbotron-header {
     color:rgb(255, 255, 255);
-    font-weight:bold; 
+    font-weight:bolder; 
 }
 
 /* Footer */
 
 .footer-container {
     margin-top: 30px;
-    background-color:#d5e1ec94;
-    margin-bottom: 20px;
+    background-color:#d5e1ec;
+   
 }
 
 .copyright-container {
