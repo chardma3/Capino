@@ -29,14 +29,14 @@ body {
 /* Containers */
 
 .callout-container {
-    height: 500px;
-    background: url('../images/boat-main.jpg') no-repeat center center;
+    height: 100vh;
+    background: url('../images/boat-main.jpg') no-repeat center center fixed;
     background-size: cover;
-   
     display:flex;
     align-items:center;
     justify-content:center;
     padding:0;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .about-container {
@@ -104,6 +104,7 @@ body {
     width: 160px;
     color:white;
     background-color:black;
+    font-family: 'Raleway', sans-serif;
 }
 
 .button-cta:hover {
