@@ -43,6 +43,7 @@ body {
 
 .about-container {
     margin-top: 10px;
+    padding-bottom: 35px;
 }
 
 .about-heading {
@@ -115,7 +116,6 @@ body {
 /* Buttons */
 
 .button-cta {
-    font-weight: bold;
     border-radius: 23px;
     width: 160px;
     color:white;
