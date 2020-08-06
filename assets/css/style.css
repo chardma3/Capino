@@ -47,7 +47,7 @@ html {
 
 .about-container {
     margin-top: 10px;
-    padding-bottom: 35px;
+    padding-bottom: 40px;
 }
 
 .about-heading {
@@ -155,8 +155,8 @@ html {
 }
 
 .subtext {
-    font-weight:bold;
     font-family: 'Raleway', sans-serif;
+    
 
 }
 
@@ -226,7 +226,7 @@ html {
     .form-group {
         padding-top:30px;
         margin: 0 auto;
-        max-width: 70%;
+        max-width: 50%;
         min-height:240px;
 }
 }
