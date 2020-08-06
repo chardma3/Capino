@@ -122,16 +122,23 @@ html {
 
 /* Buttons */
 
+.btn {
+    border:none;
+}
+
 .button-cta {
     border-radius: 23px;
     width: 160px;
     color:white;
     background-color:black;
+    outline: none;
     font-family: 'Raleway', sans-serif;
 }
 
 .button-cta:hover {
     background: #919191;
+    outline: none;
+    box-shadow: none;
 }
 
 /* Form */
