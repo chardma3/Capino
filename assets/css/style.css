@@ -12,7 +12,7 @@ html {
 /* Navbar */
 
 .navbar {
-    background-color:#d5e1ec;
+    background-color:#fdcf85;
     padding: 0; 
 }
 
@@ -136,7 +136,7 @@ html {
 }
 
 .button-cta:hover {
-    background: #919191;
+    background-color:#d5e1ec;
     outline: none;
     box-shadow: none;
 }
@@ -156,8 +156,6 @@ html {
 
 .subtext {
     font-family: 'Raleway', sans-serif;
-    
-
 }
 
 .form-group {
@@ -181,15 +179,14 @@ html {
     color:rgb(255, 255, 255);
     font-weight: 900;
     font-size: 5rem;
-    font-style: italic;
-    
+    font-style: italic; 
 }
 
 /* Footer */
 
 .footer-container {
     margin-top: 30px;
-    background-color:#d5e1ec;
+    background-color:#fdcf85;
    
 }
 
