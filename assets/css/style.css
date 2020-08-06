@@ -3,24 +3,24 @@
 
 body,
 html {
-  font-family: 'Raleway', sans-serif;
-  margin:0;
-  padding: 0;
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+    padding: 0;
 
 }
 
 /* Navbar */
 
 .navbar {
-  background-color:#d5e1ec;
-  padding: 0; 
+    background-color:#d5e1ec;
+    padding: 0; 
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index:100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:100;
 }
 
 .navbar-brand {
@@ -58,12 +58,15 @@ html {
 
 .responsive {
     max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-text {
-  padding: 15px 20px 0 0;
-  margin: 0 20px;
-  height:100%;
+    padding: 15px 20px 0 0;
+    margin: 0 20px;
+    height:100%;
 }
 
 .package-heading {
@@ -170,7 +173,6 @@ html {
 .jumbotron-header {
     color:rgb(255, 255, 255);
     font-weight: 900;
-    
     font-size: 5rem;
     font-style: italic;
     
