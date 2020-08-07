@@ -11,7 +11,7 @@ html {
 /* Navbar */
 
 .navbar {
-    background-color:#fdcf85;
+    background-color:#9ad8dc;
     padding: 0; 
 }
 
@@ -132,7 +132,7 @@ html {
 }
 
 .button-cta:hover {
-    background-color:#d5e1ec;
+    background-color:#9ad8dc;
     box-shadow: none;
 }
 
@@ -181,7 +181,7 @@ html {
 
 .footer-container {
     margin-top: 30px;
-    background-color:#fdcf85;
+    background-color:#9ad8dc;
    
 }
 
