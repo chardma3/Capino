@@ -6,7 +6,6 @@ html {
     font-family: 'Raleway', sans-serif;
     margin:0;
     padding: 0;
-
 }
 
 /* Navbar */
@@ -40,9 +39,7 @@ html {
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:0;
- 
-    
+    padding:0;  
 }
 
 .about-container {
@@ -131,13 +128,11 @@ html {
     width: 160px;
     color:white;
     background-color:black;
-    outline: none;
     font-family: 'Raleway', sans-serif;
 }
 
 .button-cta:hover {
     background-color:#d5e1ec;
-    outline: none;
     box-shadow: none;
 }
 
