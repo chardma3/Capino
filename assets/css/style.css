@@ -28,8 +28,6 @@ html {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
-
-
 /* Containers */
 
 .callout-container {
@@ -43,13 +41,12 @@ html {
 }
 
 .about-container {
-    margin-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 4.5rem;
+    padding-top:4.5rem;
 }
 
 .about-heading {
     text-align:center; 
-    padding-top: 4.5rem;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -61,9 +58,12 @@ html {
 }
 
 .about-text {
-    padding: 15px 20px 0 0;
-    margin: 0 20px;
-    height:100%;
+    padding-top: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.package-container {
+   margin-bottom: 3rem;
 }
 
 .package-heading {
@@ -74,7 +74,7 @@ html {
 }
 
 .package-type {
-    margin-bottom: 15px;
+ 
     height: 50%;
 }
 
@@ -102,6 +102,8 @@ html {
     margin:15px 10px 0 10px;
     padding-left: 0px;
 }
+
+/* Background Images */
 
 .bg-deck {
     height: 90vh;
@@ -143,8 +145,7 @@ html {
 }
 
 .form-header {
-    margin-top: 3.5rem;
-    padding-top:16px;
+    margin-top: 20px;
     text-align: center;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
@@ -182,7 +183,6 @@ html {
 .footer-container {
     margin-top: 30px;
     background-color:#9ad8dc;
-   
 }
 
 .copyright-container {
