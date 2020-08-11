@@ -3,7 +3,7 @@
 [The live project can be viewed here.](https://chardma3.github.io/Milestone1)
 
 Capino is the website for a catering service located on an upscale yet homley yacht called Capino. The service provides different packages catering to users needs by delivering a unique, memorable and tailor made experience. 
-The website is responsive and available on desktop, tablets and mobile devices.
+The website is responsive and available on desktop, laptops, tablets and mobile devices.
 
 <h2 align="center"><img src="https://github.com/chardma3/Milestone1/blob/master/assets/images/mockup.png"></h2>
 
@@ -65,7 +65,8 @@ The navbar also becomes a collapsable hamburger on mobile devices.
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.5:](https://getbootstrap.com/)
+
+-  [Bootstrap 4.5:](https://getbootstrap.com/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import heading fonts of Montserrat Subrayada and body text of Raleway.
@@ -114,7 +115,7 @@ The website is responsive and diplays four packages side by side on desktop scre
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX via Google Chrome developer Tools.
--   All links were tested to ensure they work
+-   All links were tested to ensure they work.
 -   Friends and family were asked to look at the site and give feedback on their user experience with the site in regard to color, sizes, and font styles.
 
 ## Deployment
