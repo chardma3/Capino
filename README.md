@@ -2,7 +2,6 @@
 
 [The live project can be viewed here.](https://chardma3.github.io/Milestone1)
 
-
 Capino is the website for a catering service located on an upscale yet homley yacht called Capino. The service provides different packages catering to users needs by delivering a unique, memorable and tailor made experience. 
 The website is responsive and available on desktop, tablets and mobile devices.
 
@@ -54,7 +53,7 @@ The navbar also becomes a collapsable hamburger on mobile devices.
 **Social media section**  
 *This section provides links to Capino's social media webpages.
 
-**Features Left to Implement**. 
+**Features Left to Implement**  
 *In the future I would like to implement a section with a video about the service, a photo gallery section and subscrption form for those who would like to be emailed information about upcoming events that they can attend on the boat.
 
 ## Technologies Used
