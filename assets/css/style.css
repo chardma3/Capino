@@ -55,6 +55,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
 }
 
 .about-text {
@@ -71,10 +72,6 @@ html {
     padding-bottom:15px;
     text-align:center; 
     font-family: 'Montserrat Subrayada', sans-serif;
-}
-
-.package-type {
-    height: 50%;
 }
 
 .package-image {
@@ -98,7 +95,7 @@ html {
 }
 
 .package-type p {
-    margin:15px 10px 0 10px;
+    margin:15px 10px 10px 10px;
     padding-left: 0px;
 }
 
@@ -220,4 +217,8 @@ html {
         max-width: 50%;
         min-height:240px;
 }
+
+    .package-image {
+        padding-top:10px;
+    }
 }
