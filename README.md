@@ -133,7 +133,7 @@ In order to run the code for the project locally use the link provided to naviga
 
 ### Forking the GitHub Repository
 
-I have forked the repository to create a copy of the origianl repository. I have done this by pressing the fork button at the top of the project repository.
+I have forked the repository to create a copy of the original repository. I have done this by pressing the fork button at the top of the project repository.
 
 ## Credits
 
