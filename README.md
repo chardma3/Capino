@@ -54,9 +54,8 @@ The navbar also becomes a collapsable hamburger on mobile devices.
 **Social media section**  
 *This section provides links to Capino's social media webpages.
 
-**Features Left to Implement**
-*In the future I would like to implement a section with a video about the service, a photo gallery section and subscrption form for those who would like to be emailed 
-information about upcoming events that they can attend on the boat.
+**Features Left to Implement**. 
+*In the future I would like to implement a section with a video about the service, a photo gallery section and subscrption form for those who would like to be emailed information about upcoming events that they can attend on the boat.
 
 ## Technologies Used
 
