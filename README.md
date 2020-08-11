@@ -13,20 +13,17 @@ This website is for those people wanting to have a party and/or a unique experie
 Social media links are also available so that clients can connect with the service on another level.
 
 -   ### User stories
-
-        1. As a wine connoisseur, I want a wine tasting with friends so that we can learn about wines and have a fun night.
-        2. As a busy office manager responsible for our office parties, I want someone to bring life to a staff party so that everybody has an enjoyable night.
-        3. As a parent of teenagers, I want a safe and reliable catering service so that my kids and their friends will have a memorable birthday party.
-
+-   As a wine connoisseur I want a wine tasting with friends so that we can learn about wines and have a fun night.
+-   As a busy office manager responsible for our office parties I want someone to bring life to a staff party so that everybody has an enjoyable night.
+-   As a parent of teenagers I want a safe and reliable catering service so that my kids and their friends will have a memorable birthday party.
 
 -   ### Design
     -   #### Colour Scheme
         -   The main colors are a light blue and white to reflect the ocean and the sky.
     -   #### Typography
-        -   The Montserrat Subrayada is used for the headings beacuse I felt it fit in with aquatic theme of the page. For the rest of the pages text I've used a clean and elegant sans serif called Raleway. The fallback font is Sans Serif.
+        -   The Montserrat Subrayada is used for the headings beacuse I felt it fit in with aquatic theme of the page. For the rest of the pages text I've used a             clean and elegant sans serif called Raleway. The fallback font is Sans Serif.
     -   #### Imagery
-        -   I have used large, bold images throughout to impart what it feels like to be onboard the yacht. With the large pictures and sections of white scrolling over
-        the large background images I feel it gives the website a sophisticated and stylish aesthetic.
+        -   I have used large, bold images throughout to impart what it feels like to be onboard the yacht. With the large pictures and sections of white                     scrolling over the large background images I feel it gives the website a sophisticated and stylish aesthetic.
         
 *   ### Wireframe
 
@@ -100,18 +97,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 The site was tested manually and fulfills its goals by providing an easy and straightforward way for users to achieve their goals.
 
 1 Navbar  
-i all links in the navbar take the user to that section on the webpage
+i All links in the navbar take the user to that section on the webpage
 
 2 Call-to-action button  
-i takes the user to the contact form to make it easy for the user to get in touch
+i Takes the user to the contact form to make it easy for the user to get in touch
 
 3 Contact Form  
-i on trying to submit the form with required fields left blank it shows an error message.    
-ii on entering invalid information e.g. name in the email address field, it displays an error message as it expects an email address only. This is the same for the name field which requires text and not an email address.  
-iii when all requirements are met, the form is submitted.  
+i On trying to submit the form with required fields left blank it shows an error message.    
+ii On entering invalid information e.g. name in the email address field, it displays an error message as it expects an email address only. This is the same for the name field which requires text and not an email address.  
+iii When all requirements are met, the form is submitted.  
 
 4 Social Media section  
-i all links open a separate page and take the user to the social media websites
+i All links open a separate page and take the user to the social media websites
 
 The website is responsive and diplays four packages side by side on desktop screens, two packages on tablet sized devices and everything stacked on top of each as one column in mobile view.
 
