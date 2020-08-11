@@ -65,8 +65,7 @@ The navbar also becomes a collapsable hamburger on mobile devices.
 
 ### Frameworks, Libraries & Programs Used
 
-
--  [Bootstrap 4.5:](https://getbootstrap.com/)
+1. [Bootstrap 4.5:](https://getbootstrap.com/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import heading fonts of Montserrat Subrayada and body text of Raleway.
@@ -96,18 +95,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 The site was tested manually and fulfills its goals by providing an easy and straightforward way for users to achieve their goals.
 
 1 Navbar  
-i All links in the navbar take the user to that section on the webpage
+-  All links in the navbar take the user to that section on the webpage.
 
 2 Call-to-action button  
-i Takes the user to the contact form to make it easy for the user to get in touch
+-  Takes the user to the contact form to make it easy for the user to get in touch.
 
 3 Contact Form  
-i On trying to submit the form with required fields left blank it shows an error message.    
-ii On entering invalid information e.g. name in the email address field, it displays an error message as it expects an email address only. This is the same for the name field which requires text and not an email address.  
-iii When all requirements are met, the form is submitted.  
+-  On trying to submit the form with required fields left blank it shows an error message.
+-  On entering invalid information e.g. name in the email address field, it displays an error message as it expects an email address only. This is the same for      the name field which requires text and not an email address. 
+-  When all requirements are met, the form is submitted.
+ 
 
 4 Social Media section  
-i All links open a separate page and take the user to the social media websites
+-  All links open a separate page and take the user to the social media websites.
 
 The website is responsive and diplays four packages side by side on desktop screens, two packages on tablet sized devices and everything stacked on top of each as one column in mobile view.
 
