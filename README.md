@@ -16,7 +16,7 @@ Social media links are also available so that clients can connect with the servi
 -   As a busy office manager responsible for our office parties I want someone to bring life to a staff party so that everybody has an enjoyable night.
 -   As a parent of teenagers I want a safe and reliable catering service so that my kids and their friends will have a memorable birthday party.
 
--   ### Design
+-   ## Design
     -   #### Colour Scheme
         -   The main colors are a light blue and white to reflect the ocean and the sky.
     -   #### Typography
@@ -130,10 +130,6 @@ There are no differences between the deployed version and the developement versi
 
 In order to run the code for the project locally use the link provided to navigate to the project repository and the clone the project. 
 
-
-### Forking the GitHub Repository
-
-I have forked the repository to create a copy of the original repository. I have done this by pressing the fork button at the top of the project repository.
 
 ## Credits
 
