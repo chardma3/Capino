@@ -12,9 +12,12 @@ This website is for those people wanting to have a party and/or a unique experie
 Social media links are also available so that clients can connect with the service on another level.
 
 -   ### User stories
-        1. As a wine connoisseur I want a wine tasting with friends so that we can learn about wines and have a fun night.
-        2. As a busy office manager responsible for our office parties I want someone to bring life to a staff party so that everybody has an enjoyable night.
-        3. As a parent of teenagers I want a safe and reliable catering service so that my kids and their friends will have a memorable birthday party.
+        1. As a wine connoisseur I want a wine tasting with friends so 
+        that we can learn about wines and have a fun night.
+        2. As a busy office manager responsible for our office parties 
+        I want someone to bring life to a staff party so that everybody has an enjoyable night.
+        3. As a parent of teenagers I want a safe and reliable catering 
+        service so that my kids and their friends will have a memorable birthday party.
 
 -   ### Design
     -   #### Colour Scheme
