@@ -12,13 +12,10 @@ This website is for those people wanting to have a party and/or a unique experie
 Social media links are also available so that clients can connect with the service on another level.
 
 -   ### User stories
-        1. As a wine connoisseur I want a wine tasting with friends so 
-        that we can learn about wines and have a fun night.
-        2. As a busy office manager responsible for our office parties 
-        I want someone to bring life to a staff party so that everybody has an enjoyable night.
-        3. As a parent of teenagers I want a safe and reliable catering 
-        service so that my kids and their friends will have a memorable birthday party.
-
+1. As a wine connoisseur I want a wine tasting with friends so that we can learn about wines and have a fun night.
+2. As a busy office manager responsible for our office parties I want someone to bring life to a staff party so that everybody has an enjoyable night.
+3. As a parent of teenagers I want a safe and reliable catering service so that my kids and their friends will have a memorable birthday party. 
+      
 -   ### Design
     -   #### Colour Scheme
         -   The main colors are a light blue and white to reflect the ocean and the sky.
@@ -89,8 +86,8 @@ The navbar also becomes a collapsable hamburger on mobile devices.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - To test for errors in html
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - To test for errors in css
+-   [W3C Markup Validator](https://https://validator.w3.org/) - To test for errors in html
+-   [W3C CSS Validator](https://https://validator.w3.org/) - To test for errors in css
 -   [GTmetrix](https://gtmetrix.com/) - To test website loading times
 
 ### Testing User Stories from User Experience (UX) Section
