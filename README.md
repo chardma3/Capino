@@ -87,7 +87,7 @@ The navbar also becomes a collapsable hamburger on mobile devices.
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/) - To test for errors in html
--   [W3C CSS Validator](https://validator.w3.org/) - To test for errors in css
+-   [W3C CSS Validator](http://www.css-validator.org/) - To test for errors in css
 -   [GTmetrix](https://gtmetrix.com/) - To test website loading times
 
 ### Testing User Stories from User Experience (UX) Section
