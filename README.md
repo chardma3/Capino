@@ -1,6 +1,6 @@
 <h1>Capino M/S</h1>
 
-[The live project can be viewed here.](https://chardma3.github.io/Milestone1)
+[The live project can be viewed here.](https://chardma3.github.io/Capino)
 
 Capino is the website for a catering service located on an upscale yet homley yacht called Capino. The service provides different packages catering to users needs by delivering a unique, memorable and tailor made experience. 
 The website is responsive and available on desktop, laptops, tablets and mobile devices.
@@ -87,7 +87,7 @@ The navbar also becomes a collapsable hamburger on mobile devices.
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/) - To test for errors in html
--   [W3C CSS Validator](http://www.css-validator.org/) - To test for errors in css
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - To test for errors in css
 -   [GTmetrix](https://gtmetrix.com/) - To test website loading times
 
 ### Testing User Stories from User Experience (UX) Section
@@ -124,7 +124,13 @@ The website is responsive and diplays four packages side by side on desktop scre
 
 The site is hosted on Github pages.
 
-I deployed the project by selecting the master branch in the source drop down menu in the settings of my project repository on Github.
+This project has been deployed to Github by doing the following:
+1.  Login to GitHub and locate the required [GitHub Repository](https://github.com/chardma3/Capino)
+2. At the top of the Repository locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://chardma3.github.io/Capino/) in the "GitHub Pages" section.
 
 There are no differences between the deployed version and the developement version.
 
